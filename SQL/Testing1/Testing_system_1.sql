@@ -15,7 +15,7 @@ Email	VARCHAR(50),
 Username	VARCHAR(30),
 Fullname	VARCHAR(30),
 DepartmentID	INT,
-PositionID	INT(10),
+PositionID	INT,
 CreateDate	DATE
 );
 CREATE TABLE	Group_	(
