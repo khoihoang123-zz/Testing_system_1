@@ -15,8 +15,8 @@ Email	VARCHAR(50),
 Username	VARCHAR(30),
 Fullname	VARCHAR(30),
 DepartmentID	INT,
-PositionID	VARCHAR(10),
-CreateDate	INT
+PositionID	INT(10),
+CreateDate	DATE
 );
 CREATE TABLE	Group_	(
 GroupID	INT,
@@ -27,7 +27,8 @@ CreateDate	DATE
 CREATE TABLE	GroupAccount	(
 GroupID	INT,
 AccountID	INT,
-JoinDate DATE);
+JoinDate DATE
+);
 CREATE TABLE	TypeQuestion (
 TypeID INT,
 TypeName VARCHAR(50)
